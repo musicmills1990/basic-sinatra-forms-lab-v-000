@@ -15,7 +15,7 @@ class App < Sinatra::Base
     @pf = params[:pf]
     @c = params[:c]
 
-    erb :newteam
+    erb :team
   end
 
 end
